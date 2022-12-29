@@ -27,7 +27,7 @@ const MongoUrl = "mongodb+srv://ahmadjon:XytY.i7Mruyz2LA@cluster0.2ph0d3c.mongod
 mongoose.connect(MongoUrl);
 
 app.use(expressSession({
-  secret: "samar",
+  secret: "mustafo",
   store: mongoStore.create({mongoUrl: MongoUrl})
 }));
 app.use(fileUpload());
